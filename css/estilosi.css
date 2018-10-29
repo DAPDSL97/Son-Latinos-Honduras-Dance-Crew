@@ -1,0 +1,64 @@
+*{
+	padding:0px;
+	margin:0px;
+}
+body{
+	background: #3e9da4;
+}
+#nombre{
+	text-align: center;
+	margin: 20px auto;
+	font-size: 2em;
+}
+
+#uno, #dos, #tres{
+	margin: 40px auto;
+}
+textarea{
+	display: inline-block;
+	vertical-align: top;
+	font-size: 1em;
+	
+}
+#a,#b,#c{
+	display: inline-block;
+	vertical-align: top;
+	font-size: 2em;
+	margin-left: 100px;
+}
+h1{
+	text-align: center;
+	margin: 20px auto;
+}
+nav{
+	background: #d8d456;
+	padding: 40px;
+	width: 100px;
+	position: absolute;
+	left: -150px;	
+	-webkit-transition: all 2s;
+	transition: all 2s;
+}
+nav:hover{
+	width: 300px;
+}
+a{
+	text-decoration: none;
+	background: #fff;
+	padding: 10px;
+	display: block;
+	text-align: right;	
+}
+a:hover{
+	background: #96ab56;
+	color: #fff;
+}
+#enviar{
+	text-align: center;
+	margin: 20px auto;
+	padding: 20px;
+}
+#enviar>input{
+	font-size: 2em;
+}
+

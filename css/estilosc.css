@@ -1,0 +1,86 @@
+*{
+	margin: 0;
+	padding: 0;
+}
+h1{
+	background-color: #02223a;
+	bottom: 0;
+	color: rgba(255,255,255,0.9);
+	display: block;
+	font-size: 5em;
+	font-weight: bold;
+	margin-top: 3em;
+	opacity: 0.76;
+	text-align: center;
+	text-shadow: 1px 1px 1px #666;
+	text-transform: uppercase;
+	width: 100%;
+}
+#contenedora{
+	box-shadow: 0 0 12px rgba(0,0,0,0.8);
+	margin: 0 auto;
+	max-width: 1440px;
+	width: 100%;
+}
+section{
+	background-attachment: fixed;
+	background-repeat: no-repeat;
+	background-size: cover;
+	height: 1100px;
+	margin: 0 auto;
+	max-width: 1440px;
+	overflow: hidden;
+	padding: 0;
+	position: relative;
+	width: 100%;
+}
+#uno{
+	background-image: url(../im/c01.jpg);
+}
+#dos{
+	background-image: url(../im/c02.jpg);
+}
+#tres{
+	background-image: url(../im/c03.jpg);
+}
+#cuatro{
+	background-image: url(../im/c04.jpg);
+}
+#cinco{
+	background-image: url(../im/c05.jpg);
+}
+
+nav{
+	background: #d8d456;
+	padding: 40px;
+	width: 100px;
+	position: absolute;
+	left: -150px;	
+	-webkit-transition: all 2s;
+	transition: all 2s;
+}
+nav:hover{
+	width: 300px;
+}
+a{
+	text-decoration: none;
+	background: #fff;
+	padding: 10px;
+	display: block;
+	text-align: right;	
+}
+a:hover{
+	background: #96ab56;
+	color: #fff;
+}
+button{
+	color: #fff;
+	text-align: center;
+	padding: 20px;
+	margin-left: 550px;
+	margin-top: 300px;
+	font-size: 2em;
+	background: #02223a;
+	opacity: 0.76;
+	box-shadow: 0px 0px 4px 4px;
+}

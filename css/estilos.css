@@ -1,0 +1,175 @@
+*{
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box; 	
+}
+
+/*estilos de el encabezado*/
+#encabezado{
+	background: url(../im/fe.jpg);
+	
+	
+}
+
+#enca{
+	float: right;
+	padding-right: 15px;
+}
+
+li{
+	list-style: none;
+	padding: 5px;	
+}
+#principal>ul>li{
+	padding: 10px;
+	display: inline-block;
+}
+
+#principal{
+	background: #cfc354;
+
+}
+#encabezado>header>a{
+	padding: 20px;
+}
+#principal>ul>li>a{
+	color: #fff;
+	font-family: elvetica;
+	font-size: 1.2em;
+}
+#principal>ul>li>a:hover{
+	color: #779020;
+}
+/*fin de estilos de encabezado*/
+
+/*estilos del pie de pagina*/
+#pie{
+	background: #cfc354;
+	text-align: center;
+	padding: 20px;
+
+}
+#piepag>ul>li {
+	display: inline-block;
+	padding-bottom: 20px;
+	
+}
+#pie>p{
+	font-family: arial;
+	color: white;
+	font-size: .7em;
+	padding-top: 20px;
+}
+
+/*fin de estilos de pie de pagina*/
+
+/*estilos de la caja de contenido*/
+#contenido{
+	background: rgba(0,0,0,0);
+	width: 80%;
+	margin: 20px auto;
+
+}
+.imab, #art{
+	display: inline-block;
+	text-align: center;
+	
+	
+}
+
+#art{
+	width: 80%;
+	margin: 15px auto;
+	
+}
+#imaa{
+	margin: 10px auto;
+	position: relative;
+	text-align: center;
+
+}
+img{
+	margin-top: 5px;
+}
+.imab{
+	
+	position: relative;
+	
+	margin-left: 105px;
+}
+.imab>img{
+
+	margin-right: -95px;
+}
+.letra{
+
+	color: #cfc354;
+	position: absolute;
+	top: ;
+	bottom:10px;
+	left:200px ;
+	right: ;
+	z-index: ;
+}
+.dulce>{
+	
+	font-size: 1.2em;
+	
+}
+.dulceb{
+	
+	color: #cfc354;
+	position: absolute;
+	top: ;
+	bottom:0px;
+	left:  ;
+	right:2px ;
+	z-index: ;
+}
+
+
+.sepa>h3{
+	margin-top: 20px;
+	margin-left: 22px;
+	margin-bottom: 20px;
+	color:#779020; 
+}
+hr{
+	display: inline-block;
+	vertical-align: middle;
+
+}
+.ponce{
+	display: inline-block;
+	margin: 15px;
+	margin-left: 19px;
+	vertical-align: top;
+	width: 21.2%;
+}
+#dos>h3{
+	margin-top: 20px;
+	margin-left: 24px;
+
+}
+.dulcedos{
+	width: 22%;
+	display: inline-block;
+	vertical-align: top;
+	margin-left: 25px;
+
+}
+figure>img{
+	width: 100%;
+	
+}
+figure{
+	padding: 2px;
+
+}
+h3>a{
+	color: #cfc354;
+}
+h3>a:hover{
+	color: #12a9c0;
+	text-decoration:underline;
+}
